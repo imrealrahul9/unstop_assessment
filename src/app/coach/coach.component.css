@@ -1,0 +1,35 @@
+.coach-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .seats {
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    grid-gap: 5px;
+    justify-content: center;
+  }
+  
+  .seats div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .seats div.booked {
+    background-color: red;
+    color: white;
+  }
+  
+  .seats div:hover {
+    background-color: #ddd;
+  }
+  
